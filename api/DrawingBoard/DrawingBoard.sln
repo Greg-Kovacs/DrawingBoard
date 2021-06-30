@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingBoard", "DrawingBoard\DrawingBoard.csproj", "{BFD49C93-69F1-4A9C-B9CC-4F21D378452C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA82CDED-A565-4D24-9DF8-2E7DC066D249} = {DA82CDED-A565-4D24-9DF8-2E7DC066D249}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingBoardModel", "DrawingBoardModel\DrawingBoardModel.csproj", "{DA82CDED-A565-4D24-9DF8-2E7DC066D249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD49C93-69F1-4A9C-B9CC-4F21D378452C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD49C93-69F1-4A9C-B9CC-4F21D378452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD49C93-69F1-4A9C-B9CC-4F21D378452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD49C93-69F1-4A9C-B9CC-4F21D378452C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA82CDED-A565-4D24-9DF8-2E7DC066D249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA82CDED-A565-4D24-9DF8-2E7DC066D249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA82CDED-A565-4D24-9DF8-2E7DC066D249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA82CDED-A565-4D24-9DF8-2E7DC066D249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A48B105E-EA28-42E0-BD72-56122E1C1041}
+	EndGlobalSection
+EndGlobal
